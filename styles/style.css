@@ -225,4 +225,128 @@ background: rgba(0, 76, 232, 0.05);
 
 background: rgba(255, 223, 0, 0.05);
 }
+.target-skills img{
+    margin-bottom: 24px;
+}
+/* Optional styles */
+#optional{
+    margin-top: 120px;
+}
+.op1, .op2, .op3{
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 16px;
 
+background: rgb(255, 255, 255);
+    margin-bottom: 24px;
+}
+.op1 img, .op2 img, .op3 img{
+    width: 100px;
+    height: 85px;
+    margin-right: 50px;
+}
+/* Support styles */
+#support{
+    margin-top: 41px;
+    border-radius: 16px;
+    background: linear-gradient(90deg,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../assets/handshake.jpg);
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 64px 48px 64px 48px;
+    
+}
+.support-container h2{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 16px;
+}
+.support-container p{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 24px;
+}
+.support-container{
+    margin: 0 auto;
+    text-align: center;
+}
+form input{
+    width: 548px;
+height: 57px;
+    padding: 19px 20px 19px 20px;
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+
+background: rgb(255, 255, 255);
+border: none;
+}
+form input ::placeholder{
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+form button{
+    border-radius: 8px;
+    padding: 17px 20px 17px 20px;
+background: rgb(255, 255, 255);
+border: none;
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 15px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+transition: all 0.3s ease;
+cursor: pointer;
+}
+form button:hover{
+
+    color: white;
+    background-color: rgb(65, 84, 99);
+}
+/* Footer styles */
+#end{
+    margin-top: 79px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    padding: 32px 150px 32px 150px;
+    
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-container h5{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+}
+.footer-container div{
+    display: flex;
+    gap: 24px;
+}
